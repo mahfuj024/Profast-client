@@ -4,6 +4,7 @@ import Works from '../Works/Works'
 import Services from '../Services/Services'
 import MarqueeBrandLogo from '../MarqueeBrandLogo/MarqueeBrandLogo'
 import WhyChooseUs from '../WhyChooseUs/WhyChooseUs'
+import Merchant from '../Merchant/Merchant'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Services></Services>
       <MarqueeBrandLogo></MarqueeBrandLogo>
       <WhyChooseUs></WhyChooseUs>
+      <Merchant></Merchant>
     </div>
   )
 }

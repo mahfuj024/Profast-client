@@ -3,7 +3,7 @@ import ProfastLogo from '../ProfastLogo/ProfastLogo'
 
 function Footer() {
   return (
-    <footer className="footer footer-horizontal footer-center bg-[#0B0B0B] rounded-2xl p-4 lg:rounded-4xl text-white lg:py-20 lg:px-28 py-8 md:py-12">
+    <footer className="footer footer-horizontal footer-center bg-[#0B0B0B] mt-10 md:mt-16 lg:mt-20 rounded-2xl p-4 lg:rounded-4xl text-white lg:py-20 lg:px-28 py-8 md:py-12">
   <aside>
     <ProfastLogo></ProfastLogo>
     <p className='text-center mt-4'>Enjoy fast, reliable parcel delivery with real-time tracking and zero hassle. From personal packages to <br /> business shipments — we deliver on time, every time.</p>

@@ -6,12 +6,14 @@ import authImg from "../assets/authImage.png"
 function AuthenticationLayouts() {
     return (
         <div className='bg-white'>
-            <ProfastLogo></ProfastLogo>
-            <div className='flex items-center justify-center'>
-                <div className='flex-1'>
+            <div className='p-2 md:p-9'>
+                <ProfastLogo></ProfastLogo>
+            </div>
+            <div className='flex items-center flex-col md:flex-row '>
+                <div className='flex-1 justify-items-center'>
                     <Outlet></Outlet>
                 </div>
-                <div className='flex-1'>
+                <div className='flex-1 justify-items-center'>
                     <img src={authImg} alt="" />
                 </div>
             </div>
